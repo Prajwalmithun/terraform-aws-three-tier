@@ -1,0 +1,42 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform variable files
+# *.tfvars
+
+# Terraform plan files
+*.tfplan
+
+# Directory for Terraform .terraform
+.terraform/
+.terraform/*
+
+# Lock file for provider plugins
+.terraform.lock.hcl
+
+# Local .env files
+.env
+
+# Local override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore MacOS DS_Store files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore SSH key files
+*.pem
+*.key
+
+# Ignore temporary files
+*.bak
+*.tmp
