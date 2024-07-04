@@ -12,7 +12,7 @@ jobs:
 
     - name: Install TFLint
       run: |
-        curl -L $(curl -s https://api.github.com/repos/terraform-linters/tflint/releases/latest | grep -o -E "https://.+?_Linux_x86_64\.zip") > tflint.zip
+        curl -L $(curl -s https://api.github.com/repos/terraform-linters/tflint/releases/latest | grep -o -E "https://.+?_linux_amd64\.zip") > tflint.zip
         unzip tflint.zip
         sudo mv tflint /usr/local/bin/
 
